@@ -11,8 +11,8 @@ desc 'outputs hello to the terminal'
 end
 
 desc 'Opening console?'
-  task :console do
-    puts "I exist"
+  task :console =>:environment do
+    Pry.start
   end
 
   task :environment do
