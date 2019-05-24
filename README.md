@@ -2,6 +2,7 @@
 
 ## Objectives
 
+
 1.  Introduce Rake and Rake tasks.
 2.  Understand what Rake is used for in our Ruby programs.
 3.  Learn how to build a basic Rake task.
@@ -52,6 +53,7 @@ task :hello do
   # the code we want to be executed by this task
 end
 ```
+
 
 We define tasks with `task` + `name of task as a symbol` + a block that contains
 the code we want to execute.
